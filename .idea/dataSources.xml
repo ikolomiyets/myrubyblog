@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="myrubyblog@localhost" uuid="41bf330a-ec87-471d-bbdb-2027bc3f066e">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/myrubyblog</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails myrubyblog: production" uuid="f2308225-12a4-43cd-baa6-bec3f5fd4064">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:myrubyblog</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails myrubyblog: test" uuid="6cf46c42-dd29-41bb-be58-3d6d7610ecca">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:myrubyblog</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails myrubyblog: development" uuid="9450dd8e-e6ef-4654-b01d-0878cfa8504d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:myrubyblog</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="myrubyblog@localhost" uuid="41bf330a-ec87-471d-bbdb-2027bc3f066e">
+      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>myrubyblog</user-name>
+      <introspection-schemas>myrubyblog:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails myrubyblog: production" uuid="f2308225-12a4-43cd-baa6-bec3f5fd4064">
+      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>myrubyblog</user-name>
+      <introspection-schemas>myrubyblog:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails myrubyblog: test" uuid="6cf46c42-dd29-41bb-be58-3d6d7610ecca">
+      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>myrubyblog</user-name>
+      <introspection-schemas>myrubyblog:public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails myrubyblog: development" uuid="9450dd8e-e6ef-4654-b01d-0878cfa8504d">
+      <database-info product="PostgreSQL" version="10.1" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.1">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <user-name>myrubyblog</user-name>
+      <introspection-schemas>myrubyblog:public</introspection-schemas>
+    </data-source>
+  </component>
+</project>
