@@ -1,1 +1,8 @@
-<h1>Show Posts</h1>
+<h1><%= @category.name %></h1>
+<% if @posts.each do |post| %>
+    <h3><%= link_to post.title,post %></h3>
+    <p><%= post.body %></p>
+<% end.empty? %>
+    <p>Sorry, there are no posts in this category<p>
+<% end %>
+<%= link_to "Back To Categories",categories_path %>

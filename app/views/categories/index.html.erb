@@ -1,3 +1,11 @@
-<h1>Blog Posts</h1>
-<h3><%= @header %></h3>
-<p><%= @content %></p>
+<p id="notice"><%= notice %></p>
+
+<h1>List Of Categories</h1>
+<ul>
+<% @categories.each do |category| %>
+    <li><%= link_to category.name,category %></li>
+<% end %>
+</ul>
+<br>
+
+<%= link_to 'New Category', new_category_path %>
